@@ -2,7 +2,7 @@
 
 ### Running on EDC EOxHub Workspace
 
-If you are using the EDC environment and have accessed this example through the Open Science Catalog, this example should have the correct kernel selected, and packages installed. You can directly use this example as is, with Dask Gateway. You can access this example on EDC during the week of LPS and the week after if you have registered for this workshop!
+If you are using the EDC environment and have accessed this example through the Open Science Catalog, this example should have the correct kernel selected, and packages installed. You can directly use this example as is, with Dask Gateway. You can access this example on EDC during the week of BiDs25 and the week after if you have registered for this workshop!
 
 To request an account (only available during the workshop!) click on the following and use your github account to sign in: https://workspace.edc-lps25.hub-otc-sc.eox.at/
 
@@ -14,13 +14,13 @@ It is a bit more complicated as you will have to install the software environmen
 
 Steps to run this tutorial on your own computer are listed below and demonstrated _through Linux commands only_:
 
-1. git clone the LPS-25 repository.
+1. git clone the BiDs25 repository.
 ```bash
-git clone https://github.com/ESA-EarthCODE/foss4g-2025
+git clone https://github.com/ESA-EarthCODE/bids2025-tutorial
 ```
 2. Install the required software environment with Conda. If you do not have Conda, install it by following these instructions (see [here](https://docs.conda.io/en/latest/miniconda.html)). Then create the environment, this can take a few minutes.
 ```bash
-conda env create -n pangeo -f foss4g-2025/environment.yml
+conda env create -n pangeo -f bids2025-tutorial/environment.yml
 ```
 3. Launch a Jupyterlab notebook server from this environment.
 ```bash
