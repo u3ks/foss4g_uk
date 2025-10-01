@@ -7,14 +7,15 @@ EarthCODE (https://earthcode.esa.int/) proactively promotes open science and inn
 
 1. git clone the pangeo_earthcode repository.
 ```bash
-git clone https://github.com/u3ks/pangeo_earthcode
+git clone https://github.com/u3ks/foss4g_uk
 ```
 2. Install the required software environment with Conda. If you do not have Conda, install it by following these instructions (see [here](https://docs.conda.io/en/latest/miniconda.html)). Then create the environment, this can take a few minutes.
 ```bash
-conda env create -n pangeo -f pangeo_earthcode/pangeo_earthcode.yml
+conda env create -n pangeo -f foss4g_uk/pangeo_earthcode.yml
 ```
 3. Launch a Jupyterlab notebook server from this environment.
 ```bash
+cd foss4g_uk/
 conda activate pangeo
 jupyter lab
 ```
